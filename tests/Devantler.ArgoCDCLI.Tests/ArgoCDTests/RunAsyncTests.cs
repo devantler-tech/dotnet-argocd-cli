@@ -1,3 +1,4 @@
+using System.Runtime.InteropServices;
 using CliWrap;
 
 namespace Devantler.ArgoCDCLI.Tests.ArgoCDTests;
@@ -14,6 +15,11 @@ public class RunAsyncTests
   [Fact]
   public async Task RunAsync_Version_ReturnsVersion()
   {
+    // TODO: Remove skip on RunAsync_Version_ReturnsVersion test, when Devantler.ArgoCDCLI supports Windows
+    if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
+    {
+      return;
+    }
     // Act
     var (exitCode, output) = await ArgoCD.RunAsync(["version", "--client"]);
 
