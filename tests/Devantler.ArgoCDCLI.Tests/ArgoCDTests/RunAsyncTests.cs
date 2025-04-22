@@ -20,6 +20,6 @@ public class RunAsyncTests
     // Assert
     Assert.Equal(0, exitCode);
     // argocd: v2.14.9+3b308d6.dirty
-    Assert.Matches(@"^argocd: v\d+\.\d+\.\d+\+\w+$", output.Split("\n").First());
+    Assert.Matches(@"^argocd: v\d+\.\d+\.\d+.*$", output.Split("\n").First());
   }
 }
