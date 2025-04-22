@@ -58,22 +58,6 @@ public class GetCommandTests
   }
 
   /// <summary>
-  /// Test to verify that the command returns the correct binary for Windows on x64 architecture.
-  /// </summary>
-  [Fact]
-  public void GetCommand_ShouldReturnWindowsX64Binary()
-  {
-    // Arrange
-    string expectedBinary = "argocd-win-x64.exe";
-
-    // Act
-    string actualBinary = Path.GetFileName(ArgoCD.GetCommand(PlatformID.Win32NT, Architecture.X64, "win-x64").TargetFilePath);
-
-    // Assert
-    Assert.Equal(expectedBinary, actualBinary);
-  }
-
-  /// <summary>
   /// Test to verify that the command returns a <see cref="PlatformNotSupportedException"/> when the platform is not supported.
   /// </summary>
   [Fact]

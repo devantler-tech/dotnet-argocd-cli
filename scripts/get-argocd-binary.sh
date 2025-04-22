@@ -27,4 +27,4 @@ get "https://getbin.io/argoproj/argo-cd?os=darwin&arch=amd64" "argocd" "src/Deva
 get "https://getbin.io/argoproj/argo-cd?os=darwin&arch=arm64" "argocd" "src/Devantler.ArgoCDCLI/runtimes/osx-arm64/native" "argocd-osx-arm64" false
 get "https://getbin.io/argoproj/argo-cd?os=linux&arch=amd64" "argocd" "src/Devantler.ArgoCDCLI/runtimes/linux-x64/native" "argocd-linux-x64" false
 get "https://getbin.io/argoproj/argo-cd?os=linux&arch=arm64" "argocd" "src/Devantler.ArgoCDCLI/runtimes/linux-arm64/native" "argocd-linux-arm64" false
-get "https://getbin.io/argoproj/argo-cd?os=windows&arch=amd64" "argocd.exe" "src/Devantler.ArgoCDCLI/runtimes/win-x64/native" "argocd-win-x64.exe" false
+#get "https://getbin.io/argoproj/argo-cd?os=windows&arch=amd64" "argocd.exe" "src/Devantler.ArgoCDCLI/runtimes/win-x64/native" "argocd-win-x64.exe" false

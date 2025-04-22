@@ -25,7 +25,6 @@ public static class ArgoCD
       (PlatformID.Unix, Architecture.Arm64, "osx-arm64") => "argocd-osx-arm64",
       (PlatformID.Unix, Architecture.X64, "linux-x64") => "argocd-linux-x64",
       (PlatformID.Unix, Architecture.Arm64, "linux-arm64") => "argocd-linux-arm64",
-      (PlatformID.Win32NT, Architecture.X64, "win-x64") => "argocd-win-x64.exe",
       _ => throw new PlatformNotSupportedException($"Unsupported platform: {Environment.OSVersion.Platform} {RuntimeInformation.ProcessArchitecture}"),
     };
     string binaryPath = Path.Combine(AppContext.BaseDirectory, binary);
