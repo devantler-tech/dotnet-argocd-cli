@@ -22,13 +22,15 @@
 │           │   └── native
 │           ├── osx-arm64
 │           │   └── native
-│           └── osx-x64
+│           ├── osx-x64
+│           │   └── native
+│           └── win-x64
 │               └── native
 └── tests
     └── Devantler.ArgoCDCLI.Tests
         └── ArgoCDTests
 
-18 directories
+20 directories
 ```
 <!-- readme-tree end -->
 
