@@ -4,46 +4,21 @@
 [![Test](https://github.com/devantler-tech/dotnet-argocd-cli/actions/workflows/test.yaml/badge.svg)](https://github.com/devantler-tech/dotnet-argocd-cli/actions/workflows/test.yaml)
 [![codecov](https://codecov.io/gh/devantler-tech/dotnet-argocd-cli/graph/badge.svg?token=RhQPb4fE7z)](https://codecov.io/gh/devantler-tech/dotnet-argocd-cli)
 
-<details>
-  <summary>Show/hide folder structure</summary>
-
-<!-- readme-tree start -->
-```
-.
-├── .github
-│   └── workflows
-├── scripts
-├── src
-│   └── Devantler.ArgoCDCLI
-│       └── runtimes
-│           ├── linux-arm64
-│           │   └── native
-│           ├── linux-x64
-│           │   └── native
-│           ├── osx-arm64
-│           │   └── native
-│           ├── osx-x64
-│           │   └── native
-│           └── win-x64
-│               └── native
-└── tests
-    └── Devantler.ArgoCDCLI.Tests
-        └── ArgoCDTests
-
-20 directories
-```
-<!-- readme-tree end -->
-
-</details>
-
 A simple .NET library that embeds the Argo CD CLI.
 
 ## 🚀 Getting Started
 
+### Prerequisites
+
+- .NET 9.0 or later
+- [ArgoCD CLI](https://argo-cd.readthedocs.io/en/stable/getting_started/#1-install-argo-cd) installed and available in your system's PATH
+
+### Installation
+
 To get started, you can install the package from NuGet.
 
 ```bash
-dotnet add package Devantler.ArgoCDCLI
+dotnet add package DevantlerTech.ArgoCDCLI
 ```
 
 ## 📝 Usage
@@ -51,7 +26,7 @@ dotnet add package Devantler.ArgoCDCLI
 You can execute the ArgoCD CLI commands using the `ArgoCD` class.
 
 ```csharp
-using Devantler.ArgoCDCLI;
+using DevantlerTech.ArgoCDCLI;
 
 var (exitCode, output) = await ArgoCD.RunAsync(["arg1", "arg2"]);
 ```

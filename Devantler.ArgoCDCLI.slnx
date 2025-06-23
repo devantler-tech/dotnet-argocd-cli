@@ -1,8 +1,0 @@
-<Solution>
-  <Folder Name="/src/">
-    <Project Path="src/Devantler.ArgoCDCLI/Devantler.ArgoCDCLI.csproj" />
-  </Folder>
-  <Folder Name="/tests/">
-    <Project Path="tests/Devantler.ArgoCDCLI.Tests/Devantler.ArgoCDCLI.Tests.csproj" />
-  </Folder>
-</Solution>
