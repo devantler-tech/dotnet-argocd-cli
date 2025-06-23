@@ -1,6 +1,6 @@
 using CliWrap;
 
-namespace Devantler.ArgoCDCLI.Tests.ArgoCDTests;
+namespace DevantlerTech.ArgoCDCLI.Tests.ArgoCDTests;
 
 /// <summary>
 /// Tests for the <see cref="ArgoCD.RunAsync(string[], CommandResultValidation, bool, bool, CancellationToken)" /> method.

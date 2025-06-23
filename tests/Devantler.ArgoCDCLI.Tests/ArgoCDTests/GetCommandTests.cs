@@ -1,6 +1,6 @@
 using System.Runtime.InteropServices;
 
-namespace Devantler.ArgoCDCLI.Tests.ArgoCDTests;
+namespace DevantlerTech.ArgoCDCLI.Tests.ArgoCDTests;
 
 /// <summary>
 /// Tests for the <see cref="ArgoCD.GetCommand(PlatformID?, Architecture?, string?)"/> method.

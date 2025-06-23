@@ -2,7 +2,7 @@
 using CliWrap;
 using CliWrap.Buffered;
 
-namespace Devantler.ArgoCDCLI;
+namespace DevantlerTech.ArgoCDCLI;
 
 /// <summary>
 /// A class to run argocd CLI commands.

@@ -1,8 +1,8 @@
 <Solution>
   <Folder Name="/src/">
-    <Project Path="src/Devantler.ArgoCDCLI/Devantler.ArgoCDCLI.csproj" />
+    <Project Path="src/DevantlerTech.ArgoCDCLI/DevantlerTech.ArgoCDCLI.csproj" />
   </Folder>
   <Folder Name="/tests/">
-    <Project Path="tests/Devantler.ArgoCDCLI.Tests/Devantler.ArgoCDCLI.Tests.csproj" />
+    <Project Path="tests/DevantlerTech.ArgoCDCLI.Tests/DevantlerTech.ArgoCDCLI.Tests.csproj" />
   </Folder>
 </Solution>
